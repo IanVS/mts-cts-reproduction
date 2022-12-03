@@ -17,3 +17,12 @@ Run the following to see the module resolution trace:
 npm install
 npm run generate-export-types
 ```
+
+
+Here's part of the resolution trace:
+
+```
+======== Resolving module 'exports' from '/Users/ianvs/example/src/NodeNext/test/foo.cts'. ========
+Explicitly specified module resolution kind: 'NodeNext'.
+Resolving in ESM mode with conditions 'node', 'import', 'types'.
+```
