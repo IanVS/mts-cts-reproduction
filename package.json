@@ -1,0 +1,13 @@
+{
+  "name": "mts-cts-repro",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "generate-export-types": "tsc -p ./tsconfig.json"
+  },
+  "author": "Ian VanSchooten",
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^4.9.3"
+  }
+}
